@@ -13,7 +13,40 @@
     <title>Clean My Car</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="container">
+      <div class="sidebar">
+        <img src="./assets/logo.png" alt="logo-clean-my-car" />
+        <strong class="title">CleanMyCar</strong>
+      </div>
+      <div class="main">
+        <span class="help-text">Need help?</span>
+        <span class="form-title">Log in</span>
+        <form class="form-container">
+          <div class="form-content">
+            <label class="label">Email</label>
+            <input
+              class="input"
+              tyep="email"
+              placeholder="yourname@gmail.com"
+              name="email"
+            />
+          </div>
+          <div class="form-content">
+            <label class="label">Password</label>
+            <input
+              class="input"
+              type="password"
+              placeholder="Enter your Password"
+              name="password"
+            />
+          </div>
+          <a class="link" href="#">
+            <span class="link-text">forgot password</span>
+          </a>
+          <button class="button">login</button>
+        </form>
+      </div>
+    </div>
     <script src="./js/index.js"></script>
   </body>
 </html>
