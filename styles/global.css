@@ -1,5 +1,6 @@
 @import url('./sidebar.css');
 @import url('./main.css');
+@import url('./form.css');
 
 * {
   margin: 0;
@@ -11,7 +12,7 @@
   --aquamarine-400: #1AEAB6;
   --silver-400: #BABABA;
 
-  --aquamarine-600: #1AEAB6;
+  --aquamarine-5000: #00d2a1;
 
   ---black-800: #454545;
 
