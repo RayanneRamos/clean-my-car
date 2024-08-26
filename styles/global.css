@@ -6,6 +6,12 @@
 
 :root {
   --aquamarine-400: #1AEAB6;
+  --silver-400: #BABABA;
+
+  --aquamarine-600: #1AEAB6;
+
+  ---black-800: #454545;
+
   --white: #fff;
   --black: #000;
 }
