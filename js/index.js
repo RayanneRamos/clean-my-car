@@ -20,15 +20,14 @@ function createAccount() {
 
   let logins = JSON.parse(localStorage.getItem("logins")) || [];
 
-  // Verificar se o email já está registrado
   if (logins.some((account) => account.email === email)) {
     alert("The email is already registered in our system.");
     return;
   }
 
   const newAccount = { email, password };
-  logins.push(newAccount); // Adiciona a nova conta ao array de logins
-  localStorage.setItem("logins", JSON.stringify(logins)); // Salva o array atualizado no localStorage
+  logins.push(newAccount);
+  localStorage.setItem("logins", JSON.stringify(logins));
 
   alert("Account created successfully.");
 }
