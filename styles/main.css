@@ -21,6 +21,6 @@
   transition: all 0.4s;
 }
 
-.help-text:hover {
+.help-text span:hover {
   color: var(--black-800);
 }
